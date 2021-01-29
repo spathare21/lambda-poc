@@ -1,6 +1,6 @@
-Feature: Add new item to ToDO list
+Feature: Add new item to ToDO list 1
 
-Scenario: Lambdatest ToDO Scenario
+Scenario: Lambdatest ToDO Scenario Hello
 
 Given user is on home Page
 When select First Item
