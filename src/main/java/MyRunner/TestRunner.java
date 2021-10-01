@@ -61,7 +61,7 @@ public class TestRunner {
     		System.out.println(gridURL);
     		connection = new RemoteWebDriver(new URL(gridURL), capability);
     		System.out.println(capability);
-    		System.out.println(connection);
+    		System.out.println(connection.getSessionId());
 }
  
     @Test(groups = "cucumber", description = "Runs Cucumber Feature", dataProvider = "features")
