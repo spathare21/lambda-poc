@@ -26,6 +26,12 @@
 
 
 		<dependency>
+			<groupId>com.github.lambdatest</groupId>
+			<artifactId>lambdatest-tunnel-binary</artifactId>
+			<version>1.0.4</version>
+		</dependency>
+
+		<dependency>
 			<groupId>org.seleniumhq.selenium</groupId>
 			<artifactId>selenium-java</artifactId>
 			<version>3.11.0</version>

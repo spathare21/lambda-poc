@@ -18,6 +18,7 @@ public class ToDoStepDefinition extends TestRunner {
 	public void user_already_on_home_page() {
 		System.out.println(driver.getCapabilities());
 		driver.get("https://lambdatest.github.io/sample-todo-app/");
+//		driver.get("https://insync-torna.drtst.in/");
 
 	}
 
